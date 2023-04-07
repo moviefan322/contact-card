@@ -1,0 +1,20 @@
+{
+  "name": "contact",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "start": "webpack --watch"
+  },
+  "author": "2U",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "workbox-webpack-plugin": "^6.5.4"
+  },
+  "devDependencies": {
+    "source-map-loader": "^4.0.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
